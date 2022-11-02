@@ -11,7 +11,6 @@ public class PlayerManagement : MonoBehaviour
     private Rigidbody rigidbodyComponent;
     private int superJumpsRemaining;
 
-    
     private void Start()
     {
         rigidbodyComponent = GetComponent<Rigidbody>();
